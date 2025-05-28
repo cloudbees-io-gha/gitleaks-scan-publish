@@ -1,10 +1,7 @@
-name: gitleaks-hybrid
-description: Run gitleaks compliance scan with CloudBees hybrid integration
+name: 'Gitleaks scan and publish to Platform'
+description: 'Runs Gitleaks scan to detect vulnerabilities and publishes to the CloudBees platform.'
 
 inputs:
-  cloudbees-pat: 
-    description: Cloudbees PAT token of User
-    required: true
   cloudbees-url: 
     description: Cloudbees API URL
     required: false
