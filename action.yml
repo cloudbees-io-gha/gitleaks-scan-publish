@@ -1,5 +1,5 @@
 name: 'Gitleaks scan and publish to Platform'
-description: 'Runs Gitleaks scan to detect vulnerabilities and publishes to the CloudBees platform.'
+description: 'Scans your GitHub repository for hardcoded secrets using Gitleaks and publishes the results to the CloudBees Platform.'
 
 inputs:
   cloudbees-url: 
